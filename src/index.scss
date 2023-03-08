@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.app{
+    background-image: url("../public/img/contenedorfondo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    transition: transform 0.2s ease-out;
+    color: #ffc107;
+    font-family: 'Fredoka One', cursive;
+}
+.titulo:hover {
+    transform: translateY(-3px);
+}
+.card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card {
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.58);
+    margin: 20px;
+    max-width: 300px;
+    background-color: rgba(10, 10, 10, 0.374);
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.btn {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: block;
+}
+.btn:hover {
+    background-color: #ff9800;
+    border-color: #ff9800;
+    color: #fff;
+}
+.btn:active {
+    background-color: #f57c00;
+    border-color: #f57c00;
+    color: #fff;
+}

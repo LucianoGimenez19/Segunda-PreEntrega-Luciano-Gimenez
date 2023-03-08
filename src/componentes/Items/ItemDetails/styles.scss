@@ -1,0 +1,27 @@
+.card-detail {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.58);
+    margin: 20px;
+    max-width: 300px;
+    background-color: rgba(10, 10, 10, 0.374);
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    &-price{
+        margin-top: 5px;
+    }
+    &-desc{
+        text-align: center;
+    }
+}
+.button{
+    margin-bottom: 5px;
+}
